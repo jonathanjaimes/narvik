@@ -150,6 +150,22 @@ nav h2 {
 	border-radius: 10px;
 }
 
+table {
+	text-align: center;
+}
+
+.pruebaProveedoresVendedores {
+	width: 870px;
+	height: 250px;
+	background-color: #f7f7f7;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10px;
+	border-radius: 10px;
+}
+
 .caja1-producto {
 	width: 100%;
 	height: 390px;
@@ -235,4 +251,42 @@ footer{
 
 .textoFooter {
 	color: white;
+}
+
+/*Tablas páginas secundarias*/
+
+.form-top {
+	width: 500px;
+}
+
+.form-top p {
+	/*background-color: red;*/
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+.form-buttom {
+	width: 500px;
+}
+
+.form-buttom p {
+	/*background-color: red;*/
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+.campo {
+	border-radius: 3px;
+}
+
+.fech  {
+	margin-right: 197px;
+}
+
+.cod  {
+	margin-right: 135px;
 }

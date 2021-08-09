@@ -24,7 +24,7 @@
 	<div class="menu">
 		<ul>
 			<a href="producto.html"><li><i class="icofont-cube"></i> Producto</li></a>
-			<a href="compra.html"><li><i class="icofont-bill"></i> Compra</li></a>
+			<a href="compra.html"><li class="compra-activo"><i class="icofont-bill"></i> Compra</li></a>
 			<a href="venta.html"><li><i class="icofont-cart-alt"></i> Venta</li></a>
 			<a href="recetas.html"><li><i class="icofont-muffin"></i> Recetas</li></a>
 			<a href="proveedores.html"><li><i class="icofont-pixels"></i> Proveedores</li></a>
@@ -37,7 +37,85 @@
 	<div class="centro">
 
 		<div class="prueba">
-			
+			<section class="top">
+				<form action="" method="" class="form-top">
+				  <p>Orden: <input type="text" name="nombre" size="40" class="campo"></p>
+				  <p class="cod">Codigo proveedor:
+				      <select name="menu">
+				          <option>Unobbbbbbbbbbggggbbb</option>
+				          <option>Dos</option>
+				          <option>Tres</option>
+				        </select>
+				    </p>
+				  <p>Nombre proveedor: <input type="text" name="nombre" size="40" class="campo"></p> <!--Depende del código del vendedor y se coloca automáticamente-->
+				</form>
+			</section>
+			<section class="middle">
+				<h4>Productos comprados</h4>
+			<div class="caja1-recetas">
+				<table class="tabla">
+				  <tr>
+				    <th>Codigo</th>
+				    <th>Producto</th>
+				    <th>Costo unidad</th>
+				    <th>Cantidad comprada</th>
+				    <th>Costo total producto</th>
+				  </tr>
+				  <tr>
+				    <td>PAS022</td>
+				    <td>x</td>
+				    <td>Pastas El bobito</td>
+				    <td>$2000</td>
+				    <td>$2000</td>
+				  </tr>
+				  <tr>
+				    <td>PAS022</td>
+				    <td>x</td>
+				    <td>Pastas El bobito</td>
+				    <td>$2000</td>
+				    <td>$2000</td>
+				  </tr>
+				  <tr>
+				    <td>PAS022</td>
+				    <td>x</td>
+				    <td>Pastas El bobito</td>
+				    <td>$2000</td>
+				    <td>$2000</td>
+				  </tr>
+				  <tr>
+				    <td>PAS022</td>
+				    <td>x</td>
+				    <td>Pastas El bobito</td>
+				    <td>$2000</td>
+				    <td>$2000</td>
+				  </tr>
+				  <tr>
+				    <td>PAS022</td>
+				    <td>x</td>
+				    <td>Pastas El bobito</td>
+				    <td>$2000</td>
+				    <td>$2000</td>
+				  </tr>
+				  <tr>
+				    <td>PAS022</td>
+				    <td>x</td>
+				    <td>Pastas El bobito</td>
+				    <td>$2000</td>
+				    <td>$2000</td>
+				  </tr>
+				</table>
+			</div>
+			</section>
+			<section class="buttom">
+				<form action="" method="" class="form-buttom">
+				  <p>Costo total: <input type="text" name="nombre" size="40" class="campo"></p> <!--será la sumatoria automática de la columna valor total producto-->
+				  <p class="fech">Fecha registro: <input type="date" name="fecha" class="campo" ></p>
+				</form>
+			</section>
+			<div class="boton">
+				<button class="button1">Agregar</button>
+				<a href="compra.html"><button class="button1">Cancelar</button></a>
+			</div>
 		</div>
 
 	</div>
